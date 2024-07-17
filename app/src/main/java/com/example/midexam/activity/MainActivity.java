@@ -40,6 +40,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void goToItemTouchActivity(){
         startActivity(new Intent(this, ItemActivity.class));
-        finish();
+        finish();//好
     }
 }
